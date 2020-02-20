@@ -1,0 +1,117 @@
+body{
+	background-color: #2B7F5C;
+	color: white;
+}
+@media only screen and (max-width: 576px) {
+		.bg-image{
+			visibility: hidden;
+		}
+		.welcome{
+			text-align: center;
+			width: 70%;
+			font-size: 12px;
+		}
+}
+.bg-image{
+	z-index:-21;
+	position: absolute;
+}
+.header{
+	position: fixed;
+	z-index: 5;
+}
+.footer{
+	position:fixed;
+	z-index: 5;
+	margin-top: 680px;
+}
+a{
+	transition-duration: 0.2s;
+  cursor: pointer;
+}
+a:hover {
+    color: grey;
+    background-color: transparent;
+		text-decoration: none;
+}
+a:active {
+    color: grey;
+    background-color: transparent;
+    text-decoration: bold;
+}
+.section1{
+	height: 510px;
+}
+.section2{
+	min-height: 770px;
+}
+.section3{
+	min-height: 770px;
+}
+.pilihan-paket{
+	transition-duration: 0.5s;
+}
+.pilihan-paket:hover{
+	background-color: rgba(9, 255, 153, 0.6);
+	z-index: 3;
+}
+.paket{
+	text-align: center;
+	z-index: 4;
+	margin-top: 300px;
+}
+hr.garis-paket{
+	border-width: 4px;
+	border-color: white;
+	border-radius: 4px;
+	margin: 0px 100px 0px 100px;
+}
+a.link-paket{
+	cursor: pointer;
+	color: white;
+	font-family:freehand;
+	font-size:40px;
+}
+a.link-paket:hover{
+	text-decoration: underline;
+}
+.pilihan-jenis{
+	text-align: center;
+	padding-top: 200px;
+}
+a.link-jenis{
+	cursor: pointer;
+	color: white;
+	font-family:gothicbi;
+	font-size:25px;
+}
+hr.garis-jenis{
+	border-width: 2px;
+	border-color: white;
+	border-radius: 2px;
+	margin: 5px 150px 15px 150px;
+}
+p.deskripsi-jenis{
+	font-family: gothici;
+	font-size: 12px;
+}
+.welcome{
+	margin: auto;
+	width: 45%;
+	margin-top: 250px;
+}
+.button-masuk{
+	background-color: transparent;
+	color: white;
+	border-radius: 5px;
+	border: 1.5px solid white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	transition-duration: 0.3s;
+  cursor: pointer;
+}
+.button-masuk:hover{
+	background-color: #09FF99;
+}
